@@ -5,6 +5,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.IBinder;
 import android.widget.Toast;
 
@@ -27,7 +28,9 @@ public class MinService extends Service {
         PendingIntent pIntent= PendingIntent.getActivity(this, 0, i, 0);
         Notification notifikasjon = new NotificationCompat.Builder(this,"22")
                 .setContentTitle("Not if y").setContentText("Lorem Ipsum")
-                .setSmallIcon(R.mipmap.ic_launcher).setContentIntent(pIntent).build();
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setLargeIcon(BitmapFactory.decodeResource(getApplicationContext().getResources(),
+                        R.mipmap.ic_launcher_round)).setContentIntent(pIntent).build();
         notifikasjon.flags |= Notification.FLAG_AUTO_CANCEL;
         notificationManager.notify(0, notifikasjon);
         return super.onStartCommand(intent, flags, startId);

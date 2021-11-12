@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startService(View v) {
-        /*Intent intent= new Intent(this, MinService.class);
-        this.startService(intent);*/
-        Intent intent= new Intent();
+        Intent intent= new Intent(this, MinService.class);
+        this.startService(intent);
+        /*Intent intent= new Intent();
         intent.setAction("com.example.broadcastreceiver.MittBroadcast");
-        sendBroadcast(intent);
+        sendBroadcast(intent);*/
     }
 
     public void stoppPeriodisk(View v){
