@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="@string/send_melding_tittel"
+        android:key="sendMeldinger"
+        /></PreferenceCategory>
+
+    <PreferenceCategory>
+    <!--<EditTextPreference
+        android:defaultValue="21:00"
+        android:title="Tid"
+        android:key="klokkeslett" />-->
+
+    <EditTextPreference
+        android:defaultValue="@string/default_msg"
+        android:title="@string/meldingen_tittel"
+        android:key="meldingen" /></PreferenceCategory>
+
+
+
+
+
+
+</PreferenceScreen>

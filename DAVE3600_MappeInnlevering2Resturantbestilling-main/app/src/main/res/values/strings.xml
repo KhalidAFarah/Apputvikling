@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Group booker</string>
+    <!--<string-array name="text">
+        <item>Fine restauranter</item>
+        <item>Hurtigmat-restauranter</item>
+        <item>Kafé</item>
+        <item>Kafeteria</item>
+        <item>Pub</item>
+        <item>Bistro</item>
+        <item>Taverna</item>
+    </string-array>-->
+
+    <string-array name="planets_array">
+        <item>Velg type</item>
+        <item>Fine restauranter</item>
+        <item>Hurtigmat-restauranter</item>
+        <item>Kafé</item>
+        <item>Kafeteria</item>
+        <item>Pub</item>
+    </string-array>
+
+    <string-array name="planets_array_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!--Navigation bar-->
+        <string name="nav_kontakter">Kontakter</string>
+        <string name="nav_resturanter">Restauranter</string>
+        <string name="nav_bestillinger">Bestillinger</string>
+
+    <!--Alerts-->
+    <string name="slett">Slett</string>
+    <string name="avbrytt">Avbryt</string>
+    <string name="forlat">Forlat</string>
+
+    <string name="slett_resturant">Fjern resturanten?</string>
+    <string name="slett_resturant_description">Dette vil også fjerne bestillinger med denne valgte resturanten</string>
+
+    <string name="slett_kontakt">Fjern kontakt?</string>
+    <string name="slett_kontakt_description">Dette vil også fjerne denne kontakten som gjest i registrerte bestillinger</string>
+
+    <string name="slett_bestilling">Fjern bestilling?</string>
+
+    <string name="endrer">Endringene blir ikke lagret!</string>
+
+    <!--Hints-->
+    <string name="preferanse_tid">varsler om besøk klokken</string>
+
+    <string name="hint_navn">Navn</string>
+    <string name="hint_adresse">Adresse</string>
+    <string name="hint_tlf">Telefonnummer</string>
+    <string name="hint_type">Type</string>
+
+    <string name="hint_fornavn">Fornavn</string>
+    <string name="hint_etternavn">Etternavn</string>
+
+    <string name="hint_restaurant">Restaurant</string>
+    <string name="hint_dato">Dato og tid</string>
+    <string name="hint_gjester">Gjester</string>
+
+    <string name="hint_sett_dato">Sett dato og tid</string>
+    <string name="inviterte_kontakter">Inviterte kontakter</string>
+
+    <!--Defaults-->
+    <string name="default_msg">Hei, du har et planlagt møte i dag ved</string>
+    <string name="default_time">21:00</string>
+
+    <string name="defualt_gjester">Ingen registrerte gjester</string>
+    <string name="default_kontakter">Ingen registrerte kontakter</string>
+
+    <!--Notifikasjoner-->
+    <string name="notifikasjon_tittel">Registrert bestilling i dag</string>
+    <string name="notifikasjon_tekst">Du har en planlagt bestilling i dag</string>
+
+
+    <string name="melding_navn">Restaurant:</string>
+    <string name="melding_adresse">Adresse:</string>
+    <string name="melding_dato_tid">Tid:</string>
+
+    <string name="teksten_med">Teksten som sendes med bestillings info.</string>
+
+    <!--Toast-->
+    <string name="toast_lagret_endringer">Lagret endringer</string>
+    <string name="restaurant_registrert">Restauranten er registrert</string>
+    <string name="kontakten_registrert">Kontakten er registrert</string>
+    <string name="bestilling_registrert">Bestillingen er registrert</string>
+    Bestillingen er registrert
+
+    <string name="err_velg_restaurant">Vennligst velg en restaurant</string>
+    <string name="err_velg_tidpunkt">Vennligst velg et gyldidg tidspunkt</string>
+
+    <!--Error text-->
+    <string name="tom_felt">Feltet kan ikke være tom</string>
+    <string name="tom_felt_tlf">Skriv inn tlf</string>
+    <string name="err_velg_type">Husk å velge restauranttype!</string>
+    <string name="err_restaurant_tlf_opptatt">Restauranten ble ikke registrert
+telefonnummeret er opptatt</string>
+    <string name="err_kontakt_tlf_opptatt">Kontakten ble ikke registrert
+telefonnummeret er opptatt</string>
+
+    <string name="skriv_fornavn">Skriv inn fornavnet ditt</string>
+    <string name="skriv_etternavn">Skriv inn etternavnet ditt</string>
+    <string name="skriv_tlf">Skriv inn tlf</string>
+
+
+    <string name="skriv_navn">Skriv inn navn</string>
+    <string name="skriv_adresse">Skriv inn adresse</string>
+
+    <string name="restaurant_mangler">Error en restaurant mangler</string>
+
+    <!--Spinner-->
+    <string name="velg_restaurant">Velg en restaurant</string>
+    <string name="velg_type">Velg type</string>
+
+    <!--Preferanse aktivitet-->
+    <string name="send_melding_tittel">Send sms til deltakere</string>
+    <string name="meldingen_tittel">Meldingen sendt til deltakere</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/visKontaktLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_fornavn"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/txt_edit_kontakt_fornavn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_edit_kontakt_fornavn"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/editttext_border"
+        android:hint="@string/hint_fornavn"
+
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_etternavn"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/txt_edit_kontakt_etternavn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_edit_kontakt_etternavn"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/editttext_border"
+        android:hint="@string/hint_etternavn"
+
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_tlf"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/txt_edit_kontakt_tlf"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_edit_kontakt_tlf"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/editttext_border"
+
+        android:hint="@string/hint_tlf"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--<Button
+        android:id="@+id/btn_edit_kontakt"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/editbtn_register"
+        android:text="Rediger"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
