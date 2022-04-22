@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+<PreferenceCategory>
+    <Preference
+        android:title="@string/spraak" />
+
+    <!--<Preference
+        android:key="test"
+        android:icon="@drawable/no_flagg"
+        android:layout="@layout/check"/>-->
+
+
+    <CheckBoxPreference
+
+        android:icon="@drawable/no_flagg"
+        android:key="Landskode_NO"
+        />
+
+    <CheckBoxPreference
+        android:icon="@drawable/de_flagg"
+
+        android:key="Landskode_DE"
+        />
+
+
+</PreferenceCategory>
+
+
+<PreferenceCategory>
+    <Preference
+        android:title="@string/velg"/>
+
+    <CheckBoxPreference
+
+
+        android:title="5"
+        android:key="Limit_5"
+        />
+
+    <CheckBoxPreference
+
+
+        android:title="10"
+        android:key="Limit_10"
+        />
+
+    <CheckBoxPreference
+
+
+        android:title="15"
+        android:key="Limit_15"
+
+
+        />
+</PreferenceCategory>
+
+
+    <!--<ListPreference
+
+    android:key="Limit"
+    android:title="@string/velg"
+    android:entries="@array/limit"
+    android:entryValues="@array/limit"
+    />
+
+<ListPreference
+    android:key="Landskode"
+    android:title="@string/spraak"
+    android:entries="@array/sprak"
+    app:entryValues="@array/sprak_kode"/>
+    <PreferenceCategory android:title="Preference category">
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Preference category">
+
+    </PreferenceCategory>-->
+
+
+</PreferenceScreen>

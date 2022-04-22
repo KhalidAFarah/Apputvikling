@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Kart av hus</string>
+
+    <!--Default-->
+    <string name="start_posisjon">Pilestredet</string>
+
+    <!--Alerts-->
+    <string name="slett">Slett</string>
+    <string name="avbryt">Avbryt</string>
+    <string name="slett_hus_beskrivelse">Slett registrert hus</string>
+
+    <string name="fyll_felt">Fyll ut feltet</string>
+    <string name="ugyldig_omrade">Vennligst velg et gyldig omrade</string>
+
+    <string name="error_registrering_server">Klarte ikke a lagre huset</string>
+    <string name="error_hente_registrerte_hus">Kunne ikke hente registrerte hus</string>
+    <string name="error_oppdater_registrerte_hus">Kunne ikke oppdatere det registrerte hus</string>
+    <string name="error_slette_registrerte_hus">Kunne ikke slette huset</string>
+
+    <string name="hus_regisrert">Huset ble registrert</string>
+    <string name="registrert_hus_oppdatert">Huset ble oppdatert</string>
+    <string name="registrert_hus_slettet">Huset ble slettet</string>
+
+    <string name="feil_data_om_hus">Registrert hus er ugyldig</string>
+    <string name="ugyldig_karakterer">Ugyldige karakterer brukt</string>
+    <string name="ugyldig_karakterer_adresse">Ugyldige karakterer brukt i adressen</string>
+
+    <string name="error_fra_server">Kunne ikke hente det registrert huset</string>
+
+    <string name="negativt_tall">Vennligst oppgi en gyldig etasje</string>
+
+
+    <!--Rediger-->
+    <string name="tittel">Tittel</string>
+    <string name="adresse">Adresse</string>
+    <string name="etasjer">Etasjer</string>
+    <string name="beskrivelse">Beskrivelse</string>
+
+    <string name="registrer">Registrer</string>
+    <string name="lagre">Lagre</string>
+
+    <!--ekstra info-->
+    <string name="marker_etasjer">Etasjer:</string>
+
+
+
+
+</resources>

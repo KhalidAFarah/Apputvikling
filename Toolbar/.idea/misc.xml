@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Khalid/Documents/Apputvikling/Toolbar/app/src/main/res/layout/activity_aktivitet2.xml" value="0.4" />
+        <entry key="..\:/Users/Khalid/Documents/Apputvikling/Toolbar/app/src/main/res/layout/activity_aktivitet3.xml" value="0.3717105263157895" />
+        <entry key="..\:/Users/Khalid/Documents/Apputvikling/Toolbar/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Khalid/Documents/Apputvikling/Toolbar/app/src/main/res/menu/menu_akt2.xml.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Khalid/Documents/Apputvikling/Toolbar/app/src/main/res/menu/menu_akt_3.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Khalid/Documents/Apputvikling/Toolbar/app/src/main/res/menu/menu_hoved.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Khalid/Documents/Apputvikling/Toolbar/app/src/main/res/menu/minmeny.xml" value="0.20925925925925926" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

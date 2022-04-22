@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Toolbar
+        android:id="@+id/min_meny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/hoved_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hovedaktivitet"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/hoved_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

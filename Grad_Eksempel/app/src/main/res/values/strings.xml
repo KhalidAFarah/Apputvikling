@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Grad_Eksempel</string>
+    <string name="grader_start">Skriv i grader</string>
+    <string name="fahrenheit_start">Skriv i fahrenheit</string>
+    <string name="grader">Bytt til grader</string>
+    <string name="fahrenheit">Bytt til fahrenheit</string>
+    <string name="overskrift">Skriv inn temperatur</string>
+    <string name="action_settings">Settings</string>
+    <string name="Error">Error please write number</string>
+</resources>

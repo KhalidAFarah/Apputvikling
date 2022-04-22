@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regnestykker">
+        <item>1+1</item>
+        <item>9+10</item>
+        <item>33+33</item>
+        <item>21+5</item>
+        <item>0+0</item>
+
+        <item>100+2</item>
+        <item>99+33</item>
+        <item>12+3</item>
+        <item>28+5</item>
+        <item>45+15</item>
+
+        <item>15+15+15</item>
+        <item>100+123</item>
+        <item>599+401</item>
+        <item>435+35</item>
+        <item>35+0+21</item>
+    </string-array>
+
+    <integer-array name="svar">
+        <item>2</item>
+        <item>19</item>
+        <item>66</item>
+        <item>26</item>
+        <item>0</item>
+
+        <item>102</item>
+        <item>132</item>
+        <item>15</item>
+        <item>33</item>
+        <item>60</item>
+
+        <item>45</item>
+        <item>223</item>
+        <item>1000</item>
+        <item>470</item>
+        <item>56</item>
+    </integer-array>
+
+    <!--preferanser-->
+
+    <string-array name="limit">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="sprak">
+        <item>Norsk</item>
+        <item>Tysk</item>
+    </string-array>
+    <string-array name="sprak_kode">
+        <item>NO</item>
+        <item>DE</item>
+    </string-array>
+</resources>

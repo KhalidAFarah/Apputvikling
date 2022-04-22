@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TestAvRestaurantCP</string>
+    <string name="vis">Vis alle restauranter</string>
+    <string name="slett">Slett en restaurant</string>
+    <string name="legg">Legg til en restaurant</string>
+    <string name="oppdater">Oppdater en restaurant</string>
+
+    <string name="id">Id</string>
+    <string name="navn">Navn</string>
+    <string name="adresse">Adresse</string>
+    <string name="tlf">Tlf</string>
+    <string name="type">Type</string>
+
+    <string-array name="planets_array">
+        <item>Velg type</item>
+        <item>Fine restauranter</item>
+        <item>Hurtigmat-restauranter</item>
+        <item>Kafé</item>
+        <item>Kafeteria</item>
+        <item>Pub</item>
+    </string-array>
+</resources>

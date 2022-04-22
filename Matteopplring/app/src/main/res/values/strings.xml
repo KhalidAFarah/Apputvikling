@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mathomatic</string>
+    <string name="btn_start_spill">🎮 Spill</string>
+    <string name="btn_se_statistikk">📈 Statistikk</string>
+    <string name="btn_preferanser">Preferanser</string>
+
+    <!--Game activity-->
+
+    <string name="btn_slett_text">sd</string>
+    <string name="btn_svar_text">=</string>
+    <string name="teller_riktige">✔</string>
+    <string name="teller_feil">❌</string>
+    <string name="error_svar">Vennligst skriv inn en verdi</string>
+
+    <string name="brukt_full">Samme spørsmål kommer på nytt</string>
+
+    <string name="svar_riktig">Riktig!</string>
+    <string name="svar_feil">Feil! Svaret var</string>
+
+    <string name="avbryt">Avbryt</string>
+    <string name="avslutt">Avslutt</string>
+    <string name="avslutt_title">Vil du avslutte?</string>
+    <string name="avslutt_desc">Antall riktige og feile svar blir ikke registrert</string>
+
+    <string name="grat">Gratulere</string>
+    <string name="score">Du scorte , ut av .</string>
+
+    <string name="OK">OK</string>
+
+
+    <!--Settings activity-->
+    <string name="velg">Antall spørsmål per spill</string>
+    <string name="spraak">Språk</string>
+
+    <!--Statistikk activity-->
+    <string name="statistikk_riktig">Riktig</string>
+    <string name="statistikk_feil">Feil</string>
+    <string name="data_mangel">Mangler svar</string>
+    <string name="tøm_tittel">Tøm statistikk</string>
+    <string name="tøm_desc">Fjern alle riktige og feile svar</string>
+</resources>

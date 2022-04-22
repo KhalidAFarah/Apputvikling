@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dialogprefs</string>
+    <string name="ok">Avslutt</string>
+    <string name="ikkeok">Avbryt</string>
+
+    <string name="key">Notifikasjoner</string>
+    <string name="title">Tillat notifikasjoner</string>
+
+    <string name="key2">melding</string>
+    <string name="title2">Melding</string>
+    <string name="summary">Standardmelding</string>
+</resources>

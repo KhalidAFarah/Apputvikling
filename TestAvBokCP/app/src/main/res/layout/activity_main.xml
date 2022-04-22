@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hoved_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.testavbokcp.MainActivity">
+
+    <EditText
+        android:id="@+id/tittel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tittel" />
+    <Button
+        android:id="@+id/leggtil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Legg til bok"
+        android:onClick="leggtil" />
+    <Button
+        android:id="@+id/visalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vis alle bøker"
+        android:onClick="visalle" />
+    <TextView
+        android:id="@+id/vis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

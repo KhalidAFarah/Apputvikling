@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mathematik</string>
+    <string name="btn_start_spill">🎮 Spill</string>
+    <string name="btn_se_statistikk">📈 Statistikk</string>
+    <string name="btn_preferanser">Preferanser</string>
+
+    <!--Game activity-->
+
+    <string name="btn_slett_text">sd</string>
+    <string name="btn_svar_text">=</string>
+    <string name="teller_riktige">✔</string>
+    <string name="teller_feil">❌</string>
+    <string name="error_svar">Bitte einen Wert eingeben</string>
+
+    <string name="brukt_full">Die gleiche Frage taucht wieder auf</string>
+
+    <string name="svar_riktig">Richtig!</string>
+    <string name="svar_feil">Fehler! Die Antwort war</string>
+
+    <string name="avbryt">Abbrechen</string>
+    <string name="avslutt">Ausgang</string>
+    <string name="avslutt_title">Möchtest du kündigen?</string>
+    <string name="avslutt_desc">Die Anzahl richtiger und falscher Antworten wird nicht registriert</string>
+
+    <string name="grat">Gratulieren</string>
+    <string name="score">Du hast , von . Punkten erreicht</string>
+
+    <string name="OK">OK</string>
+
+
+    <!--Settings activity-->
+    <string name="velg">Anzahl der Fragen pro Spiel</string>
+    <string name="spraak">Sprache</string>
+
+    <!--Statistikk activity-->
+    <string name="statistikk_riktig">Richtig</string>
+    <string name="statistikk_feil">Fehler</string>
+    <string name="data_mangel">Fehlende Antwort</string>
+    <string name="tøm_tittel">Statistiken löschen</string>
+    <string name="tøm_desc">Entfernen Sie alle richtigen und falschen Antworten</string>
+</resources>
